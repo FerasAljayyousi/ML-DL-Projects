@@ -1,0 +1,25 @@
+Iris Species Classification: A Machine Learning Pipeline Approach
+This project demonstrates a professional end-to-end Machine Learning workflow to classify Iris flower species. It moves beyond basic model fitting by implementing Scikit-Learn Pipelines to ensure robust data preprocessing and prevent data leakage.
+
+Project Objective :
+The goal is to predict the species of an Iris flower (Setosa, Versicolor, or Virginica) based on four physical measurements: sepal length, sepal width, petal length, and petal width.
+
+Key Features
+Exploratory Data Analysis (EDA): Visualized feature distributions and class balances using bar plots and pie charts.
+
+Data Pipeline Architecture: Used sklearn.pipeline.Pipeline to bundle StandardScaler with various classifiers. This ensures that scaling parameters are only learned from the training data.
+
+Model Comparison: Implemented and compared four different algorithms:
+
+K-Nearest Neighbors (KNN)
+
+Logistic Regression
+
+Support Vector Machine (SVM)
+
+Linear Discriminant Analysis (LDA)
+
+Robust Evaluation: Utilized Confusion Matrices and Classification Reports (Precision, Recall, F1-Score) to analyze model performance beyond simple accuracy.
+
+Results Summary
+The models achieved high accuracy (95%+), with Setosa being perfectly classified in all instances. The Confusion Matrix helped identify minor overlaps between Versicolor and Virginica, which is expected due to their physical similarities.
