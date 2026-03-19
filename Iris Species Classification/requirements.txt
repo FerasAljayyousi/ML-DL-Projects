@@ -1,1 +1,12 @@
+# Data Manipulation & Fetching
+numpy
+pandas
+ucimlrepo
 
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning & Preprocessing
+scikit-learn
+imblearn
